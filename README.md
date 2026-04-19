@@ -4,12 +4,14 @@ Nessa atividade, vamos dar os primeiros passos com JavaScript, praticando com a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
+- Nome: Victor Reis Silva de Paula
+- Matricula: 911790
 
 ## Print do console do navegador
 
-<<  COLOQUE A IMAGEM AQUI >>
+![PRINTDESKTOP](/img/resposta-js.png)
+
+![PRINTMOBILE](/img/resposta2-js.png)
 
 
 

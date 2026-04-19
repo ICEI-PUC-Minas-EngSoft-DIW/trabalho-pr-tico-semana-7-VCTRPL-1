@@ -36,3 +36,12 @@ if (despesasMensais>rendaMensal) {
 }
 
 console.log(`${nome}, sua renda mensal é de R$${(rendaMensal).toFixed(2)}, seu total de despesas é de R$${despesasMensais.toFixed(2)} a sobra é de R$${(rendaMensal - despesasMensais).toFixed(2)}.`);
+    if (despesasMensais>rendaMensal) {
+    console.log(`${nome}, Atenção: você gastou mais do que ganhou.`);
+} else {
+    if (rendaMensal - despesasMensais >= 0.3 * rendaMensal) {
+        console.log(`${nome}, Ótimo! Boa margem de sobra.`);
+    } else {
+        console.log(`${nome}, Ok, dá para melhorar a sobra.`);
+    }
+}
